@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">HELP</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Our University</h1>
+            <p><I>University is an institution of higher (or tertiary) education and research which awards academic degrees in several academic disciplines.</I></p>
+            <a href=""class="hero-btn">Visit us to know more</a>
+        </div>
+
+    </section>
+
+    <!--course-->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>machine learning,artificial intelligence,big data,drone technology</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p><I>Students can also study in laerner phase.</I></p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p><I>Degree on various streams we are provided to students.</I></p>
+            </div>
+            <div class="course-col">
+                <h3>Graduation</h3>
+                <p><I>Various Graduations programme we are offered which helps students to enhance there carrer.</I></p>
+            </div>
+        </div>
+    </section>
+<!---campus section-->
+    <section class="campus">
+        <h1>our global campus</h1>
+        <p>our campus provides various facilites regarding academics,extra curriculum activites</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!--facilites-->
+    <section class="facilities">
+        <h1>Facilites available</h1>
+        <p>Along with academics our university provide various facilies like hygiene cafeteria,well equiped library and alos various gaming facilities.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>Advanced library</h3>
+                <p>Our campus library contains books related to all field which helps our students to clear there doudts.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Stay Fit</h3>
+                <p>Our campus also provides extra curiculum activites several games to our students.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Mouth watering</h3>
+                <p>Food is an essential component of our life to wirh perspective to this our campus provides food fill with nutrients and with concern of hygiene.</p>
+        </div>
+    </section>
+    <section class="Testimonials">
+        <h1>What our student says</h1>
+        <p>Each and every review of our student is worth for us because it motivates us and improve ourselves.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Heyy everyone I am persuing drone tecnology course form this college and this college provides tremendous facilities.<br>All the staff members are very supportive they will provide very good study material and clear all doudts.</p>
+                    <h3>Jennifer Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Heyy everyone I am persuing Bachelor in technology in specialization field od artificial intelligence form this college.<br>All Teachers are very supportive they will provide very good study material and clear all doudts.<br>In terms of activites they provide you all guidance and also various curltural events organize in college.</p>
+                    <h3>David Oberoi</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--call to action-->
+    <section class="cta">
+        <h1>Enroll for our various online courses in less price.</h1>
+        <a href=""class="hero-btn">contact us</a>
+    </section>
+<!--footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Located in USA, the University of Notre Dame is a prestigious institution that offers nearly 50 international study programs for undergraduate and graduate students. This leading research university offers students a chance to pursue their academic endeavors in a unique scholarly community by pursuing a variety of majors and minors from Engineering to Global Affairs.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> Made with<i class="fa fa-heart"></i>by easy tutorials</p>
+
+    </section>
+    
+</body>
+<!--add js to toggle comment-->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</html>
